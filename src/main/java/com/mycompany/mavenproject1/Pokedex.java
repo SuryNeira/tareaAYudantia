@@ -18,7 +18,7 @@ public class Pokedex extends Inventario{
         super(capacidad, ListaObjetos);
     }
     
-    //elegir pokemon
+    //elegir pokemon si
     public Interactuables pokemonElegido(int idPokemon){
         
         for(int i=0; i<ListaObjetos.size(); i++)
